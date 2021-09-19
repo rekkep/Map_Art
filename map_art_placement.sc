@@ -23,7 +23,6 @@ place_map_art() -> (
     //first z -64 to 64 then x+1 and z -64 to 64 until its at 64|64
     c_for(global_x = -64, global_x < 64, global_x += 1, c_for(global_z = -64, global_z < 64, global_z += 1, place_block()));
 );
-
 fill_air() -> (
     //fills area with air
     b = block('air'); scan(0,0,0,(-64),255,(-64),set(_,b))
