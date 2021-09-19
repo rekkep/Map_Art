@@ -107,7 +107,6 @@ def distance(P_R, P_G, P_B):
         block_id = all_brighter_dist.index(all_lowest_dist)
 
 
-
     #write blocks and coordinates to json
     t.write('"' + str(id_block[block_id]) + '",\n') #json blocks
     c.write(str(y) + ',\n') #json y coordinates
