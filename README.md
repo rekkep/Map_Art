@@ -29,4 +29,5 @@ At the moment it could happen, that some blocks have a bigger y value than minec
 
 # Contact
 
+If you need help or find a bug contact me on Discord.
 Discord: rekkep#7705
